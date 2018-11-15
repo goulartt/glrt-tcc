@@ -1,1 +1,3 @@
 https://www.opus-software.com.br/micro-servicos-arquietura-monolitica/
+https://martinfowler.com/articles/break-monolith-into-microservices.html
+https://www.nginx.com/blog/refactoring-a-monolith-into-microservices/

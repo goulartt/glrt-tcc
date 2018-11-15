@@ -2,14 +2,39 @@
 %---------- Segundo Capitulo ----------
 \chapter{Fundamentação Teórica}
 \section{Revisão Bibliográfica}
-Existem alguns artigos descrevendo desafios de conseguir quebrar um monólito em microsserviços, descrevendo suas dificuldades e cuidados a serem tomados. No Google Next '18 foi apresentado como que a Google Britânica trata sobre o assunto, apresentando possíveis soluções utilizando seus produtos, mas nenhum define um modelo a ser seguido e nem mostra um cenário real dessa refatoração.
+Existem alguns artigos descrevendo desafios de conseguir quebrar um monólito em microsserviços, mostrando suas dificuldades e cuidados a serem tomados. No Google Next '18 foi apresentado como que a sede Britânica deles tratam sobre o assunto, apresentando possíveis soluções utilizando seus produtos, mas nenhum define um modelo a ser seguido e nem mostra um cenário real dessa refatoração.
 
 \section{Arquitetura Monolítica}
+Linguagens de programação oferecem formas de modularizar a aplicação. Contudo, essas soluções são projetadas para um único pacote executável monolítico, onde toda modularização é empacotada e executada na mesma máquina. Nesse pacote são compartilhados os mesmos recursos de máquina, memória e banco de dados.
+
+Uma arquitetura monolítica, onde todos recursos são compartilhados, pode ser representado pela figura abaixo.
+\begin{figure}[!htb]
+	\centering
+	\includegraphics{monolito.png}
+	\caption{Representação de uma arquitetura monolítica}
+	\label{Monolito}
+\end{figure}
+
+Com o passar do tempo, a solução vai crescendo e tornando-se mais complexo, utilizando ainda mais recursos. E para manutenção tempos alguns desafios como:
+\begin{itemize}  
+	\item Aumento no tamanho e complexidade ao longo do tempo: A solução se torna tão complexa que toda mudança é cara e lenta, forçando o desenvolvedor a navegar em milhões de linhas de código.
+	\item Alto acoplamento: A manutenção em um sistema monólito afeta a aplicação como um todo, as funções e serviços estão entrelaçados, de forma que uma alteração pode causar comportamentos inesperados no sistema.
+	\item Escalabilidade baixa: Se somente uma funcionalidade do sistema exige um processamento mais alto, será necessário escalar a aplicação inteira para consumir mais recurso, trazendo assim custos maiores para a empresa. 
+\end{itemize}
+
 
 \section{Arquitetura Baseada em Microsserviços}
 O termo \textbf{microsserviços} foi discutido pela primeira vez em uma conferência de arquitetos de software em 2011 para demonstrar um estilo de arquitetura de sistemas. A filosofia por de trás desse conceito é "fazer somente uma coisa e fazer bem feito", que basicamente é focar os serviços em realizar uma única função.
 
 Essa arquitetura é utilizada com objetivo de construir um conjunto de pequenos serviços, cada um auto suficiente, tendo sua própria e única funcionalidade. Cada serviço construído possui sua regra de negócio específico, e são independentes um do outro.
+
+Dito isso, a arquitetura baseada em microsserviços tem a capacidade de ultrapassar obstáculos impostos por uma arquitetura monolítica, como:
+
+\begin{itemize}  
+	\item Diminuição nos custos de manutenção e evolução dos serviços: A manutenção não será aplicada no sistema inteiro e sim na funcionalidade, é um escopo menor, menos tempo e mais fácil, logo, é mais barato. E cada serviço não irá crescer indefinidamente conforme o crescimento do sistema.
+	\item Baixo acoplamento: A manutenção em um serviço não afeta a funcionalidade de outro. E caso uma mudança seja feita em algum serviço, colocar essa alteração em ambiente de produção é muito mais fácil, pois, estará atualizando um serviço somente e não o sistema como um todo.
+	\item Escalabilidade: A implantação e replicação de microsserviços é feita por máquinas virtuais e container de maneira independente. Isso torna o sistema muito mais dinâmico e flexível. 
+\end{itemize}
 
 \chapter{Metódos e Materiais}
 \section{Ferramentas}
