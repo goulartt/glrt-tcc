@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.15)  14 NOV 2018 23:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.15)  15 NOV 2018 10:54
 entering extended mode
 **./modelo_dissertacao.tex
 (modelo_dissertacao.tex
@@ -1802,8 +1802,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.164 \end{abstract}
-                    
+l.155 \end{resumo}
+                  
 \openout4 = `modelo_dissertacao.mw'.
 
  [1
@@ -1812,26 +1812,17 @@ l.164 \end{abstract}
 ] (modelo_dissertacao.mw)
 \openout4 = `modelo_dissertacao.mw'.
 
-
-
-Package babel Warning: Unknown language `french'. Either you have
-(babel)                misspelled its name, it has not been installed,
-(babel)                or you requested it in a previous run. Fix its name,
-(babel)                install it or just rerun the file, respectively.
-(babel)                I'll proceed, but expect wrong results.
-(babel)                Reported on input line 168.
-
 \openout4 = `modelo_dissertacao.mw'.
 
-[2
+ [2
 
 
 
 ] (modelo_dissertacao.mw)
 \openout4 = `modelo_dissertacao.mw'.
 
- (modelo_dissertacao.toc
-(D:\Programas\MikTex\tex\latex\microtype\mt-cmr.cfg
+
+(modelo_dissertacao.toc (D:\Programas\MikTex\tex\latex\microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
@@ -2107,10 +2098,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 249.
 
  ) 
 Here is how much of TeX's memory you used:
- 35157 strings out of 492973
- 593038 string characters out of 3139480
- 923908 words of memory out of 3000000
- 38355 multiletter control sequences out of 15000+200000
+ 35154 strings out of 492973
+ 593000 string characters out of 3139480
+ 923934 words of memory out of 3000000
+ 38352 multiletter control sequences out of 15000+200000
  568850 words of font info for 129 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,12n,102p,2009b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2120,7 +2111,7 @@ st, replaced by a fixed one
 {D:/Programas/MikTex/fonts/enc/dvips/base/8r.enc}<D:/Programas/MikTex/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb><D:/Programas/MikTex/fonts/type1/urw/helvetic/
 uhvb8a.pfb><D:/Programas/MikTex/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on modelo_dissertacao.pdf (10 pages, 197923 bytes).
+Output written on modelo_dissertacao.pdf (10 pages, 198612 bytes).
 PDF statistics:
  189 PDF objects out of 1000 (max. 8388607)
  44 named destinations out of 1000 (max. 500000)

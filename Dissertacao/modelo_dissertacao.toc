@@ -14,7 +14,7 @@
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Fundamenta\c c\~ao Te\'orica}}{6}{chapter.2}
 \contentsline {section}{\numberline {2.1}Revis\~ao Bibliogr\'afica}{6}{section.2.1}
 \contentsline {section}{\numberline {2.2}Arquitetura Monol\IeC {\'\i }tica}{6}{section.2.2}
-\contentsline {section}{\numberline {2.3}Arquitetura Baseada em Microsservi\c cos}{6}{section.2.3}
+\contentsline {section}{\numberline {2.3}Arquitetura Baseada em Microsservi\c cos}{7}{section.2.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Met\'odos e Materiais}}{8}{chapter.3}
 \contentsline {section}{\numberline {3.1}Ferramentas}{8}{section.3.1}
