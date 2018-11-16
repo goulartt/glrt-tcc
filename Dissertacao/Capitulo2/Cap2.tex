@@ -2,10 +2,10 @@
 %---------- Segundo Capitulo ----------
 \chapter{Fundamentação Teórica}
 \section{Revisão Bibliográfica}
-Existem alguns artigos descrevendo desafios de conseguir quebrar um monólito em microsserviços, mostrando suas dificuldades e cuidados a serem tomados. No Google Next '18 foi apresentado como que a sede Britânica deles tratam sobre o assunto, apresentando possíveis soluções utilizando seus produtos, mas nenhum define um modelo a ser seguido e nem mostra um cenário real dessa refatoração.
+Existem alguns artigos descrevendo desafios de conseguir quebrar um monólito em microsserviços, como da Engenheira Zhamak que publicou um artigo em abril de 2018 \cite{artigo} sobre quando e como se deve quebrar um monolito em microsserviço, mostrando suas dificuldades e cuidados a serem tomados. No Google Cloud Next'18 \cite{googleNext} foi apresentado como que a sede Britânica deles tratam sobre o assunto, apresentando possíveis soluções utilizando seus produtos, mas nenhum define um modelo a ser seguido e nem mostra um cenário real dessa refatoração.
 
 \section{Arquitetura Monolítica}
-Linguagens de programação oferecem formas de modularizar a aplicação. Contudo, essas soluções são projetadas para um único pacote executável monolítico, onde toda modularização é empacotada e executada na mesma máquina. Nesse pacote são compartilhados os mesmos recursos de máquina, memória e banco de dados.
+Linguagens de programação oferecem formas de modularizar a aplicação. Contudo, essas soluções são projetadas para um único pacote executável monolítico, onde toda modularização é empacotada e executada na mesma máquina \cite{opus}. Nesse pacote são compartilhados os mesmos recursos de máquina, memória e banco de dados.
 
 Uma arquitetura monolítica, onde todos recursos são compartilhados, pode ser representado pela figura abaixo.
 \begin{figure}[!htb]
@@ -24,7 +24,7 @@ Com o passar do tempo, a solução vai crescendo e tornando-se mais complexo, util
 
 
 \section{Arquitetura Baseada em Microsserviços}
-O termo \textbf{microsserviços} foi discutido pela primeira vez em uma conferência de arquitetos de software em 2011 para demonstrar um estilo de arquitetura de sistemas. A filosofia por de trás desse conceito é "fazer somente uma coisa e fazer bem feito", que basicamente é focar os serviços em realizar uma única função.
+O termo \textbf{microsserviços} foi discutido pela primeira vez em uma conferência de arquitetos de software em 2011 para demonstrar um estilo de arquitetura de sistemas \cite{opus}. A filosofia por de trás desse conceito é "fazer somente uma coisa e fazer bem feito", que basicamente é focar os serviços em realizar uma única função.
 
 Essa arquitetura é utilizada com objetivo de construir um conjunto de pequenos serviços, cada um auto suficiente, tendo sua própria e única funcionalidade. Cada serviço construído possui sua regra de negócio específico, e são independentes um do outro.
 
